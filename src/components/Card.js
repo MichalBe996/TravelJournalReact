@@ -8,6 +8,7 @@ const Card = (props) => {
             <span className="place-span">
                 <img className="pin--icon" src="/images/pin.png"></img>
                 <h5>{props.country}</h5>
+                <a href={props.googleLocation}> View on Google maps </a>
                 
             </span>
             <h2>{props.name}</h2>
